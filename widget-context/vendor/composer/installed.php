@@ -3,7 +3,7 @@
         'name' => 'kasparsd/widget-context',
         'pretty_version' => 'dev-develop',
         'version' => 'dev-develop',
-        'reference' => '1332f3f9829bd0866867e6b1401a508bca6f9ea2',
+        'reference' => 'c941b3d56bd339b1276d4a9ccb7e5c2a3edaf8de',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'kasparsd/widget-context' => array(
             'pretty_version' => 'dev-develop',
             'version' => 'dev-develop',
-            'reference' => '1332f3f9829bd0866867e6b1401a508bca6f9ea2',
+            'reference' => 'c941b3d56bd339b1276d4a9ccb7e5c2a3edaf8de',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
