@@ -1,10 +1,10 @@
 === Widget Context ===
 
 Contributors: kasparsd, jamescollins  
-Tags: widget, widgets, widget context, context, logic, widget logic, visibility, widget visibility  
+Tags: widget, widgets, context, logic, visibility  
 Requires at least: 3.0  
 Tested up to: 7.1  
-Stable tag: 1.4.2  
+Stable tag: 1.5.0  
 License: GPLv2 or later  
 Requires PHP: 7.4  
 Donate link: https://widgetcontext.com/pro
@@ -64,6 +64,12 @@ Specify URLs to ignore even if they're matched by any of the other context rules
 
 
 == Changelog ==
+
+= 1.5.0 (October 9, 2026) =
+
+- Declare param, return and property types across the codebase where types are known, and refine lazy loading of the plugin option stores.
+- Feature: All context rules are now enabled by default, including those added by other plugins.
+- Plugin now verifies that WordPress is loading it before bootstrapping.
 
 = 1.4.2 (October 8, 2026) =
 

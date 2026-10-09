@@ -8,6 +8,8 @@ class ComposerStaticInitf07de36cf451d1ace69893b9a8cb524f
 {
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Preseto\\WidgetContext\\ContextOptions' => __DIR__ . '/../..' . '/src/ContextOptions.php',
+        'Preseto\\WidgetContext\\ContextSettings' => __DIR__ . '/../..' . '/src/ContextSettings.php',
         'Preseto\\WidgetContext\\Plugin' => __DIR__ . '/../..' . '/src/Plugin.php',
         'Preseto\\WidgetContext\\UriRuleMatcher' => __DIR__ . '/../..' . '/src/UriRuleMatcher.php',
         'Preseto\\WidgetContext\\UriRules' => __DIR__ . '/../..' . '/src/UriRules.php',

@@ -7,6 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Preseto\\WidgetContext\\ContextOptions' => $baseDir . '/src/ContextOptions.php',
+    'Preseto\\WidgetContext\\ContextSettings' => $baseDir . '/src/ContextSettings.php',
     'Preseto\\WidgetContext\\Plugin' => $baseDir . '/src/Plugin.php',
     'Preseto\\WidgetContext\\UriRuleMatcher' => $baseDir . '/src/UriRuleMatcher.php',
     'Preseto\\WidgetContext\\UriRules' => $baseDir . '/src/UriRules.php',
